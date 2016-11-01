@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=SMCA.map -O0 --gc-sections -LH:\CooCox\CoIDE\configuration\ProgramData\SMCA -TH:\CooCox\CoIDE\configuration\ProgramData\SMCA/arm-gcc-link.ld -g">
+      <target file="SMCA.elf" lastModified="14ffb58bee6">
+         <source file="..\obj\stm32f10x_rtc.o" lastModified="14ffb58aee4"/>
+         <source file="..\obj\delay.o" lastModified="14ffb58af4a"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="14ffb58b062"/>
+         <source file="..\obj\core_cm3.o" lastModified="14ffb58b0c6"/>
+         <source file="..\obj\rtc.o" lastModified="14ffb58b13c"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="14ffb58b19b"/>
+         <source file="..\obj\uart.o" lastModified="14ffb58b221"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="14ffb58b259"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="14ffb58b2b6"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="14ffb58b327"/>
+         <source file="..\obj\main.o" lastModified="14ffb58b50f"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="14ffb58b59f"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="14ffb58b5fd"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="14ffb58b68e"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="14ffb58b713"/>
+         <source file="..\obj\syscalls.o" lastModified="14ffb58b780"/>
+         <source file="..\obj\ff.o" lastModified="14ffb58b95e"/>
+         <source file="..\obj\dht22.o" lastModified="14ffb58b9be"/>
+         <source file="..\obj\misc.o" lastModified="14ffb58ba15"/>
+         <source file="..\obj\stm32f10x_spi.o" lastModified="14ffb58ba8d"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="14ffb58bb38"/>
+         <source file="..\obj\fattime.o" lastModified="14ffb58bb87"/>
+         <source file="..\obj\sd_spi_stm32.o" lastModified="14ffb58bc15"/>
+      </target>
+   </processor>
+</history>
